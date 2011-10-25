@@ -1,0 +1,11 @@
+Need Flex SDK + AIR 3.0 SDK for generating the .ipa (for iPhone/iPad)
+
+
+To generate the native extension (.ane), run the 'package-yuco.bat' in folder 'UDP native Extension'
+
+To use the native extension, compile the sample fla in folder 'UDP AIR package', then run 'package - yuco.bat'
+
+
+
+
+*remember to replace your cert and profile in the bat file and change the App ID in the 'UDPExtension-app.xml' to match your profile
