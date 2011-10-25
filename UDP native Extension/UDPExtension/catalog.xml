@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding ="utf-8"?>
+<swc xmlns="http://www.adobe.com/flash/swccatalog/9">
+  <versions>
+    <swc version="1.2" />
+    <flash version="11.5" build="d325" platform="WIN" />
+  </versions>
+  <features>
+    <feature-script-deps />
+    <feature-components />
+    <feature-files />
+  </features>
+  <components>
+    <component className="MyEmptyMC" name="MyEmptyMC" icon="icon_0.png"  />
+  </components>
+  <libraries>
+    <library path="library.swf">
+      <script name="com/yuco/utils/UDPExtension" mod="1319170594199" >
+        <def id="com.yuco.utils:UDPExtension" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flash.events:StatusEvent" type="e" /> 
+        <dep id="flash.external:ExtensionContext" type="e" /> 
+        <dep id="flash.events:StatusEvent" type="s" /> 
+        <dep id="flash.external:ExtensionContext" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:EventDispatcher" type="i" /> 
+      </script>
+      <script name="fl/livepreview/LivePreviewParent" mod="1319453335598" >
+        <def id="fl.livepreview:LivePreviewParent" /> 
+        <dep id="flash.display:StageScaleMode" type="e" /> 
+        <dep id="flash.external:ExternalInterface" type="e" /> 
+        <dep id="flash.utils:getDefinitionByName" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="flash.display:StageAlign" type="e" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="Error" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:MovieClip" type="i" /> 
+      </script>
+      <script name="packager" mod="1318479031910" >
+        <def id="packager" /> 
+        <dep id="com.yuco.utils:UDPExtension" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:MovieClip" type="i" /> 
+      </script>
+      <script name="MyEmptyMC" mod="1319453335596" >
+        <def id="MyEmptyMC" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="packager" type="i" /> 
+      </script>
+    </library>
+  </libraries>
+  <files>
+    <file path="icon_0.png" mod="1300321806000" />
+  </files>
+</swc>
